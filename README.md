@@ -3,18 +3,18 @@
 
 Orii-O1 is a complete, production-ready Large Language Model with advanced image generation capabilities, designed to run entirely offline without internet connectivity. It features human-like text generation, high-quality image synthesis, and multimodal understanding.
 
-## ✨ Features
+##  Features
 
-- **🧠 Advanced Text Generation**: Human-like responses with conversational patterns
-- **🎨 High-Quality Image Generation**: Diffusion-based image synthesis from text prompts
-- **👁️ Multimodal Understanding**: Process both text and images simultaneously
-- **🔒 Completely Offline**: No internet connection required after setup
+- ** Advanced Text Generation**: Human-like responses with conversational patterns
+- ** High-Quality Image Generation**: Diffusion-based image synthesis from text prompts
+- ** Multimodal Understanding**: Process both text and images simultaneously
+- ** Completely Offline**: No internet connection required after setup
 - **⚡ Optimized Performance**: GPU acceleration with mixed precision support
-- **🌐 Web Interface**: User-friendly chat interface and API
-- **🛡️ Built-in Safety**: Content filtering and safety mechanisms
-- **📱 Easy Deployment**: Docker support and custom domain deployment
+- ** Web Interface**: User-friendly chat interface and API
+- ** Built-in Safety**: Content filtering and safety mechanisms
+- ** Easy Deployment**: Docker support and custom domain deployment
 
-## 🏗️ Architecture
+##  Architecture
 
 Orii-O1 combines three core components:
 
@@ -35,7 +35,7 @@ Orii-O1 combines three core components:
 - CUDA 11.8+ (for GPU acceleration)
 - Docker (optional, for deployment)
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Installation
 
@@ -173,7 +173,7 @@ python web_interface/app.py \
 - Upload images for multimodal interactions
 - Generate images from text prompts
 
-## 🐳 Docker Deployment
+##  Docker Deployment
 
 ### Build Docker Image
 ```bash
@@ -195,7 +195,7 @@ docker run -d \
     orii-o1:latest
 ```
 
-## 🌐 Custom Domain Deployment
+##  Custom Domain Deployment
 
 ### 1. Nginx Configuration
 ```bash
@@ -246,7 +246,7 @@ sudo certbot --nginx -d yourdomain.com
 --model_size large
 ```
 
-## ⚙️ Configuration Options
+##  Configuration Options
 
 ### Model Configuration
 ```python
@@ -283,7 +283,7 @@ training_config = TrainingConfig(
 )
 ```
 
-## 📈 Performance Optimization
+##  Performance Optimization
 
 ### Memory Optimization
 ```bash
@@ -306,7 +306,7 @@ training_config = TrainingConfig(
 --dtype float16 --device cuda
 ```
 
-## 🔧 Advanced Usage
+##  Advanced Usage
 
 ### Custom Training Data Processing
 ```python
@@ -365,7 +365,7 @@ response = requests.post('http://localhost:5000/api/generate_image',
 )
 ```
 
-## 🛠️ Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -416,7 +416,7 @@ tensorboard --logdir ./models/checkpoints/logs
 # Set use_wandb=True in training config
 ```
 
-## 📚 Data Preparation Guide
+##  Data Preparation Guide
 
 ### Text Data Best Practices
 1. **Diversity**: Include various conversation styles and topics
@@ -440,7 +440,7 @@ tensorboard --logdir ./models/checkpoints/logs
 }
 ```
 
-## 🧪 Testing
+##  Testing
 
 ### Run Tests
 ```bash
@@ -461,7 +461,7 @@ python scripts/validate_model.py \
     --test_data ./data/validation
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -469,23 +469,23 @@ python scripts/validate_model.py \
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Transformer architecture inspired by recent advances in language modeling
 - Diffusion model based on DDPM and Stable Diffusion research
 - Community feedback and contributions
 
-## 📞 Support
+##  Support
 
 - **Documentation**: Check this README and inline code documentation
 - **Issues**: Open GitHub issues for bugs and feature requests
 - **Discussions**: Use GitHub Discussions for questions and community support
 
-## 🔮 Roadmap
+##  Roadmap
 
 - [ ] **v1.1**: Enhanced multimodal fusion
 - [ ] **v1.2**: Video generation capabilities
