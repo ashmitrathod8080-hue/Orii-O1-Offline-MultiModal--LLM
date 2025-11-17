@@ -1,5 +1,5 @@
 
-# Orii-O1: Advanced Offline Multimodal LLM
+# Orii-O1: Advanced Offline Multimodal LLM [Beta Version]
 
 Orii-O1 is a complete, production-ready Large Language Model with advanced image generation capabilities, designed to run entirely offline without internet connectivity. It features human-like text generation, high-quality image synthesis, and multimodal understanding.
 
