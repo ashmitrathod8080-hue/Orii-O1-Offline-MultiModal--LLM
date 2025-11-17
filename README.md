@@ -1,4 +1,3 @@
-# Orii-Demo-version-2
 
 # Orii-O1: Advanced Offline Multimodal LLM
 
