@@ -9,7 +9,7 @@ Orii-O1 is a complete, production-ready Large Language Model with advanced image
 - ** High-Quality Image Generation**: Diffusion-based image synthesis from text prompts
 - ** Multimodal Understanding**: Process both text and images simultaneously
 - ** Completely Offline**: No internet connection required after setup
-- **⚡ Optimized Performance**: GPU acceleration with mixed precision support
+- ** Optimized Performance**: GPU acceleration with mixed precision support
 - ** Web Interface**: User-friendly chat interface and API
 - ** Built-in Safety**: Content filtering and safety mechanisms
 - ** Easy Deployment**: Docker support and custom domain deployment
