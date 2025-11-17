@@ -22,7 +22,7 @@ Orii-O1 combines three core components:
 2. **Diffusion Model**: U-Net based image generator with text conditioning
 3. **Multimodal Fusion**: Cross-attention mechanisms for text-image understanding
 
-## 📋 Requirements
+##  Requirements
 
 ### System Requirements
 - **GPU**: NVIDIA GPU with 8GB+ VRAM (RTX 3080 or better recommended)
@@ -220,7 +220,7 @@ sudo apt install certbot python3-certbot-nginx
 sudo certbot --nginx -d yourdomain.com
 ```
 
-## 📊 Model Configurations
+##  Model Configurations
 
 ### Small Model (2B parameters)
 - **Use Case**: Development, testing, resource-constrained environments
